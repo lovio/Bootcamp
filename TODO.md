@@ -1,8 +1,8 @@
 #TODO List
-==========
+----------
 
 1. 配置开发环境
-	- [x] git & gitflow  
+	- [X] git & gitflow  
 	- [ ] 阅读Pro Git
 	- [x] RVM
 	- [x] vim
@@ -17,6 +17,8 @@
 	> 为何这样的数据结构  
 	> 作者及生平  
 	> 风格、性能、设计  
+4. 文档
+	- [ ] 完成最后的文档
 
 ```ruby
 	require 'patience'
