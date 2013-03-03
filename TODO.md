@@ -26,4 +26,3 @@
 	require 'determination'
 	Success.achieving
 ```
-
