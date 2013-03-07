@@ -63,4 +63,21 @@ source ~/.rvm/scripts/rvn
 
 至此，环境的配置已经完成。
 	
+##Nginx
+
+Nginx是一款非常强大的web服务器,经常被用来做反向代理服务器。同时它也是性能非常优秀的HTTP服务器。 
+Nginx的安装非常简单。因为Ruby开发经常使用到Passenger的缘故，我们这里使用Passenger来安装Nginx。
+
+```shell
+$ gem install passenger
+$ passenger-install-nginx-module
+```
+
+安装过程中会被询问nginx的安装路径，使用默认路径就可以了 `/opt/nginx`。
+
+安装完成之后，将nginx命令程序链接到`/usr/sbin`
+
+```shell
+$ sudo ln -s /opt/nginx/sbin/nginx /usr/sbin/
+```
 
