@@ -81,3 +81,15 @@ $ passenger-install-nginx-module
 $ sudo ln -s /opt/nginx/sbin/nginx /usr/sbin/
 ```
 
+## Node.js & CoffeeScript
+
+Node.js是CommonJS的一种实现，他是一个建立在Chrome的JavaScript运行时之上的平台。
+
+### 安装
+
+```shell
+sudo apt-get install python-software-properties python g++ make
+sudo add-apt-repository ppa:chris-lea/node.js
+sudo apt-get update
+sudo apt-get install nodejs npm
+```

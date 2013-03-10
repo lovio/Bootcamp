@@ -11,7 +11,7 @@ Github是当前最知名的远程版本库，上面托管了很多有名的repos
 * git手册：`man git`
 * [Git Reference](http://gitref.org)
 * [Pro Git](https://github.com/progit/progit)
-* ...
+* [My Git Workflow](http://osteele.com/posts/2008/05/my-git-workflow)
 
 ## Git之我见
 git checkout . 取消所有本地工作区修改
