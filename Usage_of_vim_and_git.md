@@ -15,6 +15,7 @@ Github是当前最知名的远程版本库，上面托管了很多有名的repos
 * *[My Git Workflow](http://osteele.com/posts/2008/05/my-git-workflow)*
 
 ### Wrapping Up
+
 1. `git checkout .` 会取消所有本地工作区修改，应该不轻易使用。如果希望抛弃本地工作区的某个文件的修改，可以使用`git checkout filename`
 2. `git commit -a`命令应避免使用。所有的操作应该遵循权限最小化的原则。
 3. 对于checkout和diff命令，如果不指明HEAD，都是默认缓存区和工作区之间的操作。
@@ -24,6 +25,20 @@ Github是当前最知名的远程版本库，上面托管了很多有名的repos
 7. `git push`命令会把本地版本库推送到远端版本库。默认会推送到Origin，如果希望可以默认推送到其他位置，可以在推送时使用`-u`参数。
 8. `git reset`命令会使缓存区与HEAD保持一致。`--hard`参数会使工作区、缓存区和HEAD保持一致。
 9. 克隆的版本库只有一个主分支，但是所有的分支是保存着的。可以使用`git branch -r`来查看。想使用别的远程分支可以`git branch your_branch repo_branch`来创建分支。
+10. 关于revert和reset的区别。reset到之前的某个分支会是之后的信息丢弃。而revert则不会，它会保留记录，继续向前。
+11. 关于合并。 把new_features分支合并到master中，master便拥有了两个分支的所有commits记录。master可以reset到任何一个commit状态。
+12. `git log -p -2` 显示差异，最近两条。
+13. `git commit --amend`，重新提交。和上次提交为一个提交。
+14. `git pull` == `git fetch | git merge`
+
+#### 关于配置
+
+1. 如果你的github帐号绑定了多个邮箱,可以在库中单独配置。
+	
+	> 比如我全局配置使用的自己的帐号。在公司的版本库中单独使用公司的email。
+
+2. Color: auto就好。
+3. ssh: 照着github help做即可。
 
 ## git-flow
 

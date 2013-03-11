@@ -3,7 +3,7 @@
 
 1. 配置开发环境
 	- [x] git & gitflow  
-	- [ ] 阅读Pro Git
+	- [x] 阅读Pro Git
 	- [x] RVM
 	- [x] vim
 2. 完成Koans
