@@ -84,6 +84,7 @@ $ sudo ln -s /opt/nginx/sbin/nginx /usr/sbin/
 ## Node.js & CoffeeScript
 
 Node.js是CommonJS的一种实现，他是一个建立在Chrome的JavaScript运行时之上的平台。
+CoffeeScript的安装需要npm，npm的全称是Node Package Modules
 
 ### 安装
 
@@ -92,4 +93,45 @@ sudo apt-get install python-software-properties python g++ make
 sudo add-apt-repository ppa:chris-lea/node.js
 sudo apt-get update
 sudo apt-get install nodejs npm
+sudo npm install -g coffee-script
 ```
+
+npm的参数可以使用`npm -h`命令查看，在这里，`-g`代表全局环境。
+
+## zsh&oh-my-zsh
+
+使用`apt-get`来安装zsh。oh-my-zsh可以使用以下步骤安装: 
+
+1. 克隆oh-my-zsh的版本库
+	
+	git clone git://github.com/robbyrussell/oh-my-zsh.git ~/.oh-my-zsh
+
+2. （可选）备份你之前的配置文件：`~/.zshrc`
+	
+	cp ~/.zshrc ~/.zshrc.orig
+
+3. 使用oh-my-zsh的配置文件`~/.zshrc`
+	
+	cp ~/.oh-my-zsh/templates/zshrc.zsh-template ~/.zshrc
+
+4. 将zsh设置为默认的shell:
+	
+	chsh -s /bin/zsh
+
+5. 尽情享受zsh带给的快感。
+
+### 插件和皮肤的设置
+
+在Github上，oh-my-zsh的wiki中有可供使用的插件和皮肤。可以按需选择。
+
+这里我使用了`sunrise`皮肤和`git`、`git-flow`、`rvm`和`ruby`插件。
+
+打开`~/.zshrc`，如下设置:
+
+	 ZSH_THEME="sunrise"
+
+	 source $ZSH/oh-my-zsh.sh
+
+### 参考
+
+[Cheatsheet](https://github.com/robbyrussell/oh-my-zsh/wiki/Cheatsheet)
