@@ -25,6 +25,7 @@ Github上有很多优秀的代码，直接阅读代码对于改进编码风格�
 	3.1. 关注Issues中的问题
 	3.2. Wiki中很多精华的东西要认真学习。
 4. 带着问题。Keep asking!
+5. help improving the code.
 
 ## 遇到问题怎么办？
 

@@ -31,7 +31,19 @@ Github是当前最知名的远程版本库，上面托管了很多有名的repos
 13. `git commit --amend`，重新提交。和上次提交为一个提交。
 14. `git pull` == `git fetch | git merge`
 
-#### 关于配置
+### git考核的内容
+
+1. clone的使用，创建裸库。（首先创造一个多人工作的环境）
+2. 一次提交，补充提交
+3. 创建分支
+4. 分支合并中的冲突制造和解决。
+5. 2号版本库的操作：创建分支，跟踪分支。
+6. git fetch / git pull
+7. git push
+8. git reset,恢复到某一状态
+9. checkout out 
+
+### 关于配置
 
 1. 如果你的github帐号绑定了多个邮箱,可以在库中单独配置。
 	
