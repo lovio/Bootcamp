@@ -14,7 +14,7 @@ Github是当前最知名的远程版本库，上面托管了很多有名的repos
 * [Pro Git](https://github.com/progit/progit)
 * *[My Git Workflow](http://osteele.com/posts/2008/05/my-git-workflow)*
 
-### Wrapping Up
+### Wrapping Up 16条
 
 1. `git checkout .` 会取消所有本地工作区修改，应该不轻易使用。如果希望抛弃本地工作区的某个文件的修改，可以使用`git checkout filename`
 2. `git commit -a`命令应避免使用。所有的操作应该遵循权限最小化的原则。
@@ -30,6 +30,8 @@ Github是当前最知名的远程版本库，上面托管了很多有名的repos
 12. `git log -p -2` 显示差异，最近两条。
 13. `git commit --amend`，重新提交。和上次提交为一个提交。
 14. `git pull` == `git fetch | git merge`
+15. 设置分支跟踪远端分支，git branch --set-upstream your_branch origin/branch
+16. git reflog的会显示gco的操作。HEAD的操作都会显示在该命令中，所以要git commit的message非常重要。初创分支跟踪可以参考第9条
 
 ### git考核的内容
 
