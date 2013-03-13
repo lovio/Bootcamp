@@ -29,9 +29,10 @@ Github是当前最知名的远程版本库，上面托管了很多有名的repos
 11. 关于合并。 把new_features分支合并到master中，master便拥有了两个分支的所有commits记录。master可以reset到任何一个commit状态。
 12. `git log -p -2` 显示差异，最近两条。
 13. `git commit --amend`，重新提交。和上次提交为一个提交。
-14. `git pull` == `git fetch | git merge`
+14. `git pull` == `git fetch | git merge origin/branch`。 如果只写了master，无法合并。
 15. 设置分支跟踪远端分支，git branch --set-upstream your_branch origin/branch
 16. git reflog的会显示gco的操作。HEAD的操作都会显示在该命令中，所以要git commit的message非常重要。初创分支跟踪可以参考第9条
+17. 
 
 ### git考核的内容
 
