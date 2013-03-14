@@ -80,6 +80,10 @@ Github是当前最知名的远程版本库，上面托管了很多有名的repos
 
 插件的使用，可以安装pathogen插件来管理插件（见Installation_Configuration.md）。
 
+### Wrapping Up
+
+1. 全文查找替换`:g/find/s//replace/g`
+
 ### 参考资料
 
 1. [Ruby开发推荐的插件](http://ruby-china.org/wiki/tools)
