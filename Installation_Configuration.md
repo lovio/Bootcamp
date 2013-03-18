@@ -3,6 +3,8 @@
 
 ## vim
 
+### 使用spf13.vim
+
 ### 安装Pathogen.vim
 
 使用它可以轻松地安装各种插件。 
