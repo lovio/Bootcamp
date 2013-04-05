@@ -33,6 +33,14 @@ Github是当前最知名的远程版本库，上面托管了很多有名的repos
 15. 设置分支跟踪远端分支，git branch --set-upstream your_branch origin/branch
 16. git reflog的会显示gco的操作。HEAD的操作都会显示在该命令中，所以git commit的message非常重要。初创分支跟踪可以参考第9条
 17. 可以才有工作区的远程分支克隆版本库，但是推送，只可以面向裸库
+18. 删除远程分支
+
+    git branch -D add_logo
+    git push origin :add_logo
+
+19. fork流程
+
+    git remote add upstream git@gihtub.com:sinatra/sinatra.git
 
 ### git考核的内容
 
