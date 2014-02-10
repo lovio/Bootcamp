@@ -41,6 +41,10 @@ Github是当前最知名的远程版本库，上面托管了很多有名的repos
 19. fork流程
 
     git remote add upstream git@gihtub.com:sinatra/sinatra.git
+    
+20. set track information
+
+    git branch --set-upstream-to=<remote>/<branch> $local_branch
 
 ### git考核的内容
 
